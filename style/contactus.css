@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	font-family: sans-serif;
+}
+form{
+	color: black;
+
+}
+.ContactUs {
+	text-align: center;
+	background: #34495e;
+	padding: 50px;
+}
+.ContactUs h1{
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	color: white;
+	font-size: 35px;
+}
+.border{
+	display: block;
+	margin: auto;
+	width: 140px;
+	height: 3px;
+	background:#3498db;
+	margin-bottom: 35px;
+}
+.ps{
+	margin-bottom: 35px;
+
+}
+.ps a{
+	display: inline-block;
+	margin:0 30px;
+	width: 220px;
+	height: 220px;
+	overflow: hidden;
+	border-radius: 30%; 
+}
+.ps a img{
+	width: 100%;
+	filter: grayscale(100%);
+}
+.ps a:hover > img{
+	filter:none;
+}
+.section{
+	width: 600px;
+	margin:auto;
+	font-size: 20px;
+	color: white;
+	text-align: justify;
+	height: 0;
+	overflow: hidden;
+}
+.section:target{
+	height: auto;
+	
+}
+.name{
+	display: block;
+	margin-bottom: 15px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  box-sizing: border-box;
+  border-radius: 4px; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: left;
+}
+legend{
+	text-align: center;
+}
+
+.last{
+	position: relative;
+}
